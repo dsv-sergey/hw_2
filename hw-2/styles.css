@@ -1,0 +1,535 @@
+/*header--------------------------------------------------------------------------------------------------------------*/
+#computer {
+    background-image: url(images/background/computer.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 650px;
+    z-index: 90;
+}
+#foliaclogo {
+    left: 390px;
+    top: 36px;
+    position: absolute;
+    width: 174px;
+    height: 99px;
+    z-index:67;
+}
+#Accueil {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 977px;
+    top: 77px;
+    z-index: 135;
+}
+#Portfolio {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 1135px;
+    top: 77px;
+    z-index: 137;
+}
+#About {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 1311px;
+    top: 77px;
+    z-index: 136;
+}
+#Contact {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 1469px;
+    top: 77px;
+    z-index: 138;
+}
+#voici_votre_prochain_portfolio_un_template_psd_ {
+    font-size: 46px;
+    font-family: "Arial Black", cursive;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 491px;
+    top: 283px;
+    z-index: 126;
+}
+#un_template_psd_ {
+    font-size: 30px;
+    font-family: "SIMPLEX", cursive;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    top: 354px;
+    z-index: 126;
+}
+#mes_travaux {
+    font-size: 14px;
+    font-family: "LATHA";
+    color: rgb(72, 191, 114);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.786;
+    position: absolute;
+    left: 911px;
+    top: 440px;
+    z-index: 124;
+}
+#Rectangle_arrondi {
+    border-width: 2px;
+    border-color: rgb(72, 191, 114);
+    border-style: solid;
+    border-radius: 3px;
+    position: absolute;
+    left: 891px;
+    top: 431px;
+    width: 134px;
+    height: 35px;
+    z-index: 123;
+}
+/*main----------------------------------------------------------------------------------------------------------------*/
+#main {
+    position: absolute;
+    left: 0;
+    top: 651px;
+    width: 1920px;
+    height: 1050px;
+    z-index: 0;
+}
+/* Buttons -----------------------------------------------------------------------------------------------------------*/
+#Tous_les_projets {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 637px;
+    top: 57px;
+    z-index: 143;
+}
+#Rectangle_arrondi_b1 {
+    border-radius: 2px;
+    background-color: rgb(72, 191, 114);
+    position: absolute;
+    left: 628px;
+    top: 50px;
+    width: 137px;
+    height: 32px;
+    z-index: 142;
+}
+#Webdesign {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 792px;
+    top: 57px;
+    z-index: 101;
+}
+#Rectangle_arrondi_b2 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    position: absolute;
+    left: 774px;
+    top: 50px;
+    width: 111px;
+    height: 32px;
+    z-index: 100;
+}
+#UI_UX_design {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 913px;
+    top: 57px;
+    z-index: 105;
+}
+#Rectangle_arrondi_b3 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    position: absolute;
+    left: 899px;
+    top: 50px;
+    width: 125px;
+    height: 32px;
+    z-index: 104;
+}
+#Illustration {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 1058px;
+    top: 57px;
+    z-index: 109;
+}
+#Rectangle_arrondi_b4 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    position: absolute;
+    left: 1040px;
+    top: 50px;
+    width: 109px;
+    height: 32px;
+    z-index: 108;
+}
+#Motion_design {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 1176px;
+    top: 57px;
+    z-index: 113;
+}
+#Rectangle_arrondi_b5 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    position: absolute;
+    left: 1161px;
+    top: 50px;
+    width: 132px;
+    height: 32px;
+    z-index: 112;
+}
+/* Items -------------------------------------------------------------------------------------------------------------*/
+#Item1 {
+    position: absolute;
+    left: 390px;
+    top: 133px;
+    width: 450px;
+    height: 302px;
+    z-index: 77;
+}
+#Item2 {
+    border-radius: 10px;
+    background-color: #c9dce3;
+    position: absolute;
+    left: 880px;
+    top: 133px;
+    width: 650px;
+    height: 438px;
+    z-index: 81;
+}
+#Item3  {
+    position: absolute;
+    left: 390px;
+    top: 475px;
+    width: 450px;
+    height: 486px;
+    z-index: 88;
+}
+#Item4 {
+    border-radius: 10px;
+    background-color: #383644;
+    position: absolute;
+    left: 880px;
+    top: 611px;
+    width: 650px;
+    height: 350px;
+    z-index: 92;
+}
+#depth {
+    position: absolute;
+    left: 91px;
+    top: 20px;
+    width: 468px;
+    height: 350px;
+    z-index: 93;
+}
+/*  About ------------------------------------------------------------------------------------------------------------*/
+#About_M_D {
+    position: absolute;
+    left: 0;
+    top: 1701px;
+    width: 1920px;
+    height: 500px;
+    z-index: 0;
+}
+#men_computer {
+    background-image: url(images/background/men-computer.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 500px;
+    z-index: 63;
+}
+#Michel_Dupont {
+    font-size: 30px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.067;
+    position: absolute;
+    left: 979px;
+    top: 114px;
+    z-index: 70;
+}
+#Webdesigner__illustrateur__auteur {
+    font-size: 22px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    line-height: 1.067;
+    font-stretch: condensed;
+    position: absolute;
+    left: 979px;
+    top: 149px;
+    z-index: 71;
+}
+#Lorem_ipsum_dolor_sit_amet__consectetur_adipisi {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.563;
+    position: absolute;
+    left: 979px;
+    top: 204px;
+    width: 430px;
+    height: 139px;
+    z-index: 70;
+}
+#me_contacter {
+    font-size: 14px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.786;
+    position: absolute;
+    left: 1001px;
+    top: 379px;
+    z-index: 68;
+}
+#ghost_btn {
+    border-width: 2px;
+    border-color: rgb(60, 73, 85);
+    border-style: solid;
+    border-radius: 3px;
+    position: absolute;
+    left: 979px;
+    top: 370px;
+    width: 148px;
+    height: 35px;
+    z-index: 67;
+}
+/* Contact -----------------------------------------------------------------------------------------------------------*/
+#Contact_footer {
+    position: absolute;
+    left: 0;
+    top: 2202px;
+    width: 1920px;
+    height: 568px;
+    z-index: 22;
+}
+#Me_contacter_footer {
+    font-size: 26px;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+    color: rgb(72, 191, 114);
+    line-height: 0.962;
+    position: absolute;
+    left: 845px;
+    top: 47px;
+    z-index: 23;
+}
+#Votre_nom {
+    border-width: 2px;
+    border-color: rgb(60, 73, 85);
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(166, 165, 165);
+    font-weight: bold;
+    line-height: 1.563;
+    text-indent: 1.5em;
+    position: absolute;
+    left: 610px;
+    top: 137px;
+    width: 331px;
+    height: 46px;
+    z-index: 49;
+}
+#Votre_email {
+    border-width: 2px;
+    border-color: rgb(60, 73, 85);
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(166, 165, 165);
+    font-weight: bold;
+    line-height: 1.563;
+    text-indent: 1.5em;
+    position: absolute;
+    left: 975px;
+    top: 137px;
+    width: 331px;
+    height: 46px;
+    z-index: 40;
+}
+#Votre_message {
+    border-width: 2px;
+    border-color: rgb(60, 73, 85);
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(166, 165, 165);
+    font-weight: bold;
+    line-height: 1.563;
+    text-indent: 1.5em;
+    position: absolute;
+    left: 610px;
+    top: 204px;
+    width: 696px;
+    height: 224px;
+    z-index: 31;
+}
+#submit {
+    border-radius: 3px;
+    background-color: rgb(72, 191, 114);
+    font-size: 14px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 610px;
+    top: 462px;
+    width: 701px;
+    height: 50px;
+    z-index: 27;
+}
+/*  Footer  ----------------------------------------------------------------------------------------------------------*/
+#Footer {
+    position: absolute;
+    left: 0;
+    top: 2767px;
+    width: 1920px;
+    height: 201px;
+    z-index: 23;
+}
+#background_footer {
+    background-color: rgb(60, 73, 85);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 201px;
+    z-index: 3;
+}
+#Copyright_©_2015_by_beneggen___www_beneggen_fr {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.563;
+    position: absolute;
+    left: 391px;
+    top: 113px;
+    z-index: 22;
+}
+#mendeleev {
+    position: absolute;
+    left: 391px;
+    top: 73px;
+    z-index: 22;
+}
+#mendeleev_text {
+    font-size: 22px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-decoration: none;
+}
+#twitter {
+    position: absolute;
+    left: 1227px;
+    top: 80px;
+    width: 22px;
+    height: 18px;
+    z-index: 7;
+}
+#linkedin {
+    border-radius: 0;
+    position: absolute;
+    left: 1316px;
+    top: 80px;
+    width: 22px;
+    height: 20px;
+    z-index: 11;
+}
+#dribbble {
+    position: absolute;
+    left: 1404px;
+    top: 80px;
+    width: 25px;
+    height: 25px;
+    z-index: 15;
+}
+#behance {
+    position: absolute;
+    left: 1495px;
+    top: 80px;
+    width: 22px;
+    height: 13px;
+    z-index: 19;
+}
