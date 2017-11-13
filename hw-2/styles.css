@@ -1,5 +1,5 @@
 /*header--------------------------------------------------------------------------------------------------------------*/
-#computer {
+.computer {
     background-image: url(images/background/computer.png);
     position: absolute;
     left: 0;
@@ -8,7 +8,7 @@
     height: 650px;
     z-index: 90;
 }
-#foliaclogo {
+.foliaclogo {
     left: 390px;
     top: 36px;
     position: absolute;
@@ -16,7 +16,7 @@
     height: 99px;
     z-index:67;
 }
-#Accueil {
+div.computer a.Accueil, div.computer a.Portfolio, div.computer a.About, div.computer a.Contact  {
     font-size: 16px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
@@ -25,50 +25,28 @@
     text-align: center;
     text-decoration: none;
     position: absolute;
+}
+.Accueil {
     left: 977px;
     top: 77px;
     z-index: 135;
 }
-#Portfolio {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
+.Portfolio {
     left: 1135px;
     top: 77px;
     z-index: 137;
 }
-#About {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
+.About {
     left: 1311px;
     top: 77px;
     z-index: 136;
 }
-#Contact {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
+.Contact {
     left: 1469px;
     top: 77px;
     z-index: 138;
 }
-#voici_votre_prochain_portfolio_un_template_psd_ {
+.voici_votre {
     font-size: 46px;
     font-family: "Arial Black", cursive;
     text-transform: uppercase;
@@ -77,10 +55,10 @@
     text-align: center;
     position: absolute;
     left: 491px;
-    top: 283px;
+    top: 255px;
     z-index: 126;
 }
-#un_template_psd_ {
+.un_template {
     font-size: 30px;
     font-family: "SIMPLEX", cursive;
     text-transform: uppercase;
@@ -92,24 +70,18 @@
     top: 354px;
     z-index: 126;
 }
-#mes_travaux {
+.Rectangle_arrondi {
+    background-color: transparent;
+    border: 2px solid rgb(72, 191, 114);
+    border-radius: 3px;
     font-size: 14px;
     font-family: "LATHA";
     color: rgb(72, 191, 114);
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.786;
-    position: absolute;
-    left: 911px;
-    top: 440px;
-    z-index: 124;
-}
-#Rectangle_arrondi {
-    border-width: 2px;
-    border-color: rgb(72, 191, 114);
-    border-style: solid;
-    border-radius: 3px;
+    line-height: 2.2;
+    text-align: center;
     position: absolute;
     left: 891px;
     top: 431px;
@@ -127,7 +99,22 @@
     z-index: 0;
 }
 /* Buttons -----------------------------------------------------------------------------------------------------------*/
-#Tous_les_projets {
+div#main a.Webdesign, div#main a.UI_UX_design, div#main a.Illustration, div#main a.Motion_design {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+}
+.Rectangle_arrondi_b2, .Rectangle_arrondi_b3, .Rectangle_arrondi_b4, .Rectangle_arrondi_b5 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    top: 50px;
+    height: 32px;
+}
+.Tous_les_projets {
     font-size: 16px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
@@ -140,7 +127,7 @@
     top: 57px;
     z-index: 143;
 }
-#Rectangle_arrondi_b1 {
+.Rectangle_arrondi_b1 {
     border-radius: 2px;
     background-color: rgb(72, 191, 114);
     position: absolute;
@@ -150,100 +137,56 @@
     height: 32px;
     z-index: 142;
 }
-#Webdesign {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(60, 73, 85);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
+.Webdesign {
     position: absolute;
     left: 792px;
     top: 57px;
     z-index: 101;
 }
-#Rectangle_arrondi_b2 {
-    border-radius: 2px;
-    background-color: rgb(234, 234, 234);
+.Rectangle_arrondi_b2 {
     position: absolute;
     left: 774px;
-    top: 50px;
     width: 111px;
-    height: 32px;
     z-index: 100;
 }
-#UI_UX_design {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(60, 73, 85);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
+.UI_UX_design {
     position: absolute;
     left: 913px;
     top: 57px;
     z-index: 105;
 }
-#Rectangle_arrondi_b3 {
-    border-radius: 2px;
-    background-color: rgb(234, 234, 234);
+.Rectangle_arrondi_b3 {
     position: absolute;
     left: 899px;
-    top: 50px;
     width: 125px;
-    height: 32px;
     z-index: 104;
 }
-#Illustration {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(60, 73, 85);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
+.Illustration {
     position: absolute;
     left: 1058px;
     top: 57px;
     z-index: 109;
 }
-#Rectangle_arrondi_b4 {
-    border-radius: 2px;
-    background-color: rgb(234, 234, 234);
+.Rectangle_arrondi_b4 {
     position: absolute;
     left: 1040px;
-    top: 50px;
     width: 109px;
-    height: 32px;
     z-index: 108;
 }
-#Motion_design {
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(60, 73, 85);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
+.Motion_design {
     position: absolute;
     left: 1176px;
     top: 57px;
     z-index: 113;
 }
-#Rectangle_arrondi_b5 {
-    border-radius: 2px;
-    background-color: rgb(234, 234, 234);
+.Rectangle_arrondi_b5 {
     position: absolute;
     left: 1161px;
-    top: 50px;
     width: 132px;
-    height: 32px;
     z-index: 112;
 }
 /* Items -------------------------------------------------------------------------------------------------------------*/
-#Item1 {
+.Item1 {
     position: absolute;
     left: 390px;
     top: 133px;
@@ -251,7 +194,7 @@
     height: 302px;
     z-index: 77;
 }
-#Item2 {
+.Item2 {
     border-radius: 10px;
     background-color: #c9dce3;
     position: absolute;
@@ -261,7 +204,7 @@
     height: 438px;
     z-index: 81;
 }
-#Item3  {
+.Item3  {
     position: absolute;
     left: 390px;
     top: 475px;
@@ -269,7 +212,7 @@
     height: 486px;
     z-index: 88;
 }
-#Item4 {
+.Item4 {
     border-radius: 10px;
     background-color: #383644;
     position: absolute;
@@ -279,7 +222,7 @@
     height: 350px;
     z-index: 92;
 }
-#depth {
+.depth {
     position: absolute;
     left: 91px;
     top: 20px;
@@ -288,7 +231,7 @@
     z-index: 93;
 }
 /*  About ------------------------------------------------------------------------------------------------------------*/
-#About_M_D {
+.About_M_D {
     position: absolute;
     left: 0;
     top: 1701px;
@@ -296,7 +239,7 @@
     height: 500px;
     z-index: 0;
 }
-#men_computer {
+.men_computer {
     background-image: url(images/background/men-computer.png);
     position: absolute;
     left: 0;
@@ -305,34 +248,34 @@
     height: 500px;
     z-index: 63;
 }
-#Michel_Dupont {
+.Michel_Dupont {
     font-size: 30px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
     font-weight: bold;
-    line-height: 1.067;
+    line-height: 1;
     position: absolute;
     left: 979px;
     top: 114px;
     z-index: 70;
 }
-#Webdesigner__illustrateur__auteur {
+.Webdesigner {
     font-size: 22px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
     font-weight: lighter;
-    line-height: 1.067;
+    line-height: 1;
     font-stretch: condensed;
     position: absolute;
     left: 979px;
     top: 149px;
     z-index: 71;
 }
-#Lorem_ipsum_dolor_sit_amet__consectetur_adipisi {
+.Lorem_ipsum {
     font-size: 16px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
-    line-height: 1.563;
+    line-height: 1.6;
     position: absolute;
     left: 979px;
     top: 204px;
@@ -340,23 +283,17 @@
     height: 139px;
     z-index: 70;
 }
-#me_contacter {
+.ghost_btn {
     font-size: 14px;
     font-family: "LATHA";
     color: rgb(60, 73, 85);
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.786;
-    position: absolute;
-    left: 1001px;
-    top: 379px;
-    z-index: 68;
-}
-#ghost_btn {
-    border-width: 2px;
-    border-color: rgb(60, 73, 85);
-    border-style: solid;
+    text-align: center;
+    line-height: 2.2;
+    background-color: transparent;
+    border: 2px solid rgb(60,73,85);
     border-radius: 3px;
     position: absolute;
     left: 979px;
@@ -374,93 +311,63 @@
     height: 568px;
     z-index: 22;
 }
-#Me_contacter_footer {
+h2 {
     font-size: 26px;
     font-family: "Arial Black";
     text-transform: uppercase;
     color: rgb(72, 191, 114);
     line-height: 0.962;
     position: absolute;
-    left: 845px;
-    top: 47px;
+    left: 835px;
+    top: 35px;
     z-index: 23;
 }
-#Votre_nom {
-    border-width: 2px;
-    border-color: rgb(60, 73, 85);
-    border-style: solid;
-    border-radius: 3px;
-    background-color: rgb(241, 241, 241);
-    font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(166, 165, 165);
-    font-weight: bold;
-    line-height: 1.563;
-    text-indent: 1.5em;
+.contact_form {
     position: absolute;
+    top: 134px;
     left: 610px;
-    top: 137px;
-    width: 331px;
-    height: 46px;
-    z-index: 49;
 }
-#Votre_email {
-    border-width: 2px;
-    border-color: rgb(60, 73, 85);
-    border-style: solid;
+.contact_form_nom, .contact_form_mail, .contact_form_message {
+    border: 1px solid rgb(60, 73, 85);
     border-radius: 3px;
     background-color: rgb(241, 241, 241);
     font-size: 16px;
     font-family: "LATHA";
     color: rgb(166, 165, 165);
     font-weight: bold;
-    line-height: 1.563;
-    text-indent: 1.5em;
-    position: absolute;
-    left: 975px;
-    top: 137px;
-    width: 331px;
-    height: 46px;
-    z-index: 40;
+    text-indent: 1em;
 }
-#Votre_message {
-    border-width: 2px;
-    border-color: rgb(60, 73, 85);
-    border-style: solid;
+.contact_form_nom {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_mail {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_message {
+    line-height: 2.6;
+    height: 222px;
+    width: 623px;
+}
+.contact_form_submit {
+    height:50px;
+    width:690px;
+    background: #33cc66;
     border-radius: 3px;
-    background-color: rgb(241, 241, 241);
     font-size: 16px;
-    font-family: "LATHA";
-    color: rgb(166, 165, 165);
+    font-family: sans-serif;
     font-weight: bold;
-    line-height: 1.563;
-    text-indent: 1.5em;
-    position: absolute;
-    left: 610px;
-    top: 204px;
-    width: 696px;
-    height: 224px;
-    z-index: 31;
-}
-#submit {
-    border-radius: 3px;
-    background-color: rgb(72, 191, 114);
-    font-size: 14px;
-    font-family: "LATHA";
+    letter-spacing: 3px;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 4px;
-    position: absolute;
-    left: 610px;
-    top: 462px;
-    width: 701px;
-    height: 50px;
-    z-index: 27;
 }
 /*  Footer  ----------------------------------------------------------------------------------------------------------*/
-#Footer {
+.Footer {
     position: absolute;
     left: 0;
     top: 2767px;
@@ -468,7 +375,7 @@
     height: 201px;
     z-index: 23;
 }
-#background_footer {
+.background_footer {
     background-color: rgb(60, 73, 85);
     position: absolute;
     left: 0;
@@ -477,59 +384,61 @@
     height: 201px;
     z-index: 3;
 }
-#Copyright_©_2015_by_beneggen___www_beneggen_fr {
+.Copyright_beneggen {
     font-size: 16px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
-    line-height: 1.563;
+    line-height: 1.6;
+    text-decoration: none;
     position: absolute;
     left: 391px;
     top: 113px;
-    z-index: 22;
+    z-index: 7;
 }
-#mendeleev {
-    position: absolute;
-    left: 391px;
-    top: 73px;
-    z-index: 22;
-}
-#mendeleev_text {
+.mendeleev {
     font-size: 22px;
     font-family: "LATHA";
     color: rgb(255, 255, 255);
     line-height: 1.5;
     text-decoration: none;
+    position: absolute;
+    left: 391px;
+    top: 73px;
+    z-index: 23;
 }
-#twitter {
+.twitter {
+    background: url(images/icon/social.png) 0 55px;
+    height: 55px;
+    width: 50px;
     position: absolute;
     left: 1227px;
     top: 80px;
-    width: 22px;
-    height: 18px;
     z-index: 7;
 }
-#linkedin {
-    border-radius: 0;
+.linkedin {
+    background: url(images/icon/social.png) -90px 55px;
+    height: 55px;
+    width: 50px;
     position: absolute;
     left: 1316px;
     top: 80px;
-    width: 22px;
-    height: 20px;
-    z-index: 11;
+    z-index: 7;
 }
-#dribbble {
+.dribbble {
+    background: url(images/icon/social.png) -177px 55px;
+    height: 55px;
+    width: 52px;
     position: absolute;
     left: 1404px;
     top: 80px;
-    width: 25px;
-    height: 25px;
-    z-index: 15;
+    z-index: 7;
 }
-#behance {
+.behance {
+    background: url(images/icon/social.png) -266px 55px;
+    height: 55px;
+    width: 50px;
     position: absolute;
     left: 1495px;
     top: 80px;
-    width: 22px;
-    height: 13px;
-    z-index: 19;
+    z-index: 7;
 }
